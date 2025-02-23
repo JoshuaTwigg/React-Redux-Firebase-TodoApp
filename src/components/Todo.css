@@ -1,0 +1,92 @@
+body{
+    background-image: url("/3533516.jpg");
+    background-size: 200%;
+}
+
+
+.card{
+    background-color: #24273d;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    color: white;
+    
+    background: rgba(36, 39, 61, 0.3); 
+    backdrop-filter: blur(10px); 
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    color: white;
+    border-radius: 15px; 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.inputForm{
+    text-align: center;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.inputFormTwo{
+    text-align: center;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input::placeholder {
+    color: white;
+  }
+
+.input{
+    width:450px;
+    text-align: center;
+    background-color: transparent; 
+    border: none;
+    border-bottom: 1px solid black; 
+}
+
+.button{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: white !important;
+}
+
+.button:hover{
+    background-color: rgb(31, 31, 31);
+}
+
+.buttonTwo{
+    background: transparent;
+  
+    width:200px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.buttonTwo:hover{
+    background-color: rgb(31, 31, 31);
+}
+
+.tHead{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(79, 62, 153) !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tBody{
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.updateBox{
+    width: 150px !important;
+    margin-left: 50px;
+}
